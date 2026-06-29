@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'genos', sans-serif;
+}
+
+h3 {
+  font-family: 'Playwrite US Trad', cursive;
+}
+
+@theme {
+  --color-pink: #FF6D6E;
+  --color-darkgreen: #659B32;
+  --color-lightgreen: #9DD45B;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #659B32;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(20, end) forwards, blink-caret 0.75s step-end 4;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 22ch; }  /* Match the number of characters */
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50%      { border-color: #659B32; }
+}
+
+/**.progress {
+  background-color: rgb(00 00 00 / 60%);
+  height: 1.5;
+  width: 0%;
+  animation: progressing 3s forwards;
+}
+
+@keyframes progressing {
+  0% { width: 0%; }
+  33.33% { width: 33.33%;}
+  73.33% { width: 73.33%;}
+  100% { width: 100% ;}
+}
