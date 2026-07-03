@@ -60,7 +60,7 @@ const About = () => {
             whileInView={{opacity:1, y:0}}
             transition={{ duration:0.8}}
             viewport={{once:true, amount:0.2}}
-            className='md:mb-2 text-sm md:text-[16px] mt-5 md:mt-10'>An aspiring Software Engineer & Full Stack Web developer who loves bringing ideas to life through code. I love building clean, responsive, & aesthetic websites that balance functionality with creativity. </motion.p>
+            className='md:mb-2 text-sm md:text-[16px] mt-5 md:mt-10'>I'm a Frontend Developer who enjoys building clean, responsive, and accessible web applications. I like transforming ideas into intuitive digital experiences using React, JavaScript, and modern web technologies.</motion.p>
 
             <div className='flex flex-row gap-1'>
 
@@ -71,7 +71,7 @@ const About = () => {
                 whileInView={{opacity:1, y:0}}
                 transition={{delay:0.4, duration:0.8}}
                 viewport={{once:true}}
-                className='mt-3 text-sm md:text-[16px]'>I’m also sharpening my problem-solving skills by solving DSA problems, not at an advanced level yet, but I enjoy tackling challenges and steadily improving with consistent practice.</motion.p>
+                className='mt-3 text-sm md:text-[16px]'>As I continue expanding my full-stack development skills, I also strengthen my problem-solving abilities through Data Structures and Algorithms while building projects that combine functionality with thoughtful design.</motion.p>
 
                 <motion.div 
                 initial={{opacity:0, y:20}}
@@ -80,9 +80,9 @@ const About = () => {
                 viewport={{once:true}}
                 className='relative md:mt-3 flex gap-6'>
 
-                  <a href="/myResume.pdf" download className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg bg-darkgreen hover:bg-darkgreen/75 rounded-xl text-white transition duration-300'>My Projects</a>
+                  <a href="#projects" className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg bg-darkgreen hover:bg-darkgreen/75 rounded-xl text-white transition duration-300'>My Projects</a>
 
-                  <a href="#about" className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg  bg-transparent border-2 border-darkgreen hover:bg-darkgreen/20 rounded-xl text-darkgreen transition duration-300'>Contact Me</a>
+                  <a href="#contact" className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg  bg-transparent border-2 border-darkgreen hover:bg-darkgreen/20 rounded-xl text-darkgreen transition duration-300'>Contact Me</a>
 
                 </motion.div>
 

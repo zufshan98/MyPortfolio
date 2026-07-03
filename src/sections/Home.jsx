@@ -1,11 +1,11 @@
 import React from 'react'
 import Hero from '../assets/hero-img.png'
 import{ motion } from 'framer-motion'
-import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaEnvelope, FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 
 const socials = [
-  {Icon : FaXTwitter , label : "X" , href : "#"},
+  {Icon : FaEnvelope , label : "Gmail" , href : "mailto:zufshannaaz00@gmail.com"},
   {Icon : FaLinkedin , label : "LinkedIn" , href : "https://www.linkedin.com/in/zufshan-naaz-89312818b/"},
   {Icon : FaGithub , label : "GitHub" , href : "https://github.com/zufshan98"},
 
@@ -23,14 +23,14 @@ const Home = () => {
         {/** Text */}
         <div className='absolute top-1/25 lg:top-1/18 z-20 w-full flex flex-col justify-center px-8 sm:px-[19%] md:px-[22%] lg:px-[26%] xl:px-[30%]'> 
 
-            <h2 className='text-[38px] sm:text-[42px] md:text-[44px] lg:text-[46px] xl:text-5xl typewriter mt-30 font-medium'>Full Stack Web Developer...</h2>
+            <h2 className='text-[38px] sm:text-[42px] md:text-[44px] lg:text-[46px] xl:text-5xl typewriter mt-30 font-medium'>Frontend Developer...</h2>
 
             <motion.p 
             initial={{opacity:0, y:20}}
             animate={{opacity:1, y:0}}
             transition={{delay:0.4, duration:0.8}}
             viewport={{once:true}}
-            className='w-85 md:w-90 lg:w-95 xl:w-md text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px] xl:text-[20px] mt-2'>Crafting beautiful & functional websites... one line of code at a time.
+            className='w-85 md:w-90 lg:w-95 xl:w-md text-[13px]/5 sm:text-[14px]/5 md:text-[15px]/5 lg:text-[16px]/5 xl:text-[18px]/5 mt-2'>React Frontend Developer creating clean, responsive and user-focused web experiences.
             </motion.p>
 
             <motion.div 
@@ -42,7 +42,7 @@ const Home = () => {
 
               <a href="/myResume.pdf" download className='px-3 py-1.5 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg bg-darkgreen hover:bg-darkgreen/75 rounded-xl text-white transition duration-300'>My Resume</a>
 
-              <a href="#about" className='px-3 py-1.5 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg  bg-transparent border-2 border-darkgreen hover:bg-darkgreen/20 rounded-xl text-darkgreen transition duration-300'>Know more</a>
+              <a href="#about" className='px-3 py-1.5 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg  bg-transparent border-2 border-darkgreen hover:bg-darkgreen/20 rounded-xl text-darkgreen transition duration-300'>About Me</a>
             </motion.div>
 
             
@@ -60,7 +60,7 @@ const Home = () => {
           src={Hero} alt="hero image" className='max-w-[85vw] lg:max-w-[90vw] xl:max-w-[95vw] max-h-[90vh] h-screen object-contain select-none pointer-events-none'/> 
 
           {/** For xl screen - Line on the side besides icons */}
-          <span className='hidden md:block absolute md:right-18  xl:right-30 top-90 h-12 w-0.5 bg-pink'></span>
+          <span className='hidden md:block absolute md:right-18  xl:right-30 top-1/2 h-12 w-0.5 bg-pink'></span>
         </div>
 
       </div>
@@ -81,7 +81,8 @@ const Home = () => {
             href={href}
             key={label}
             target="_blank"
-            rel="noopener noreferrer" >
+            rel="noopener noreferrer"
+            className='hover:scale-110' >
               <Icon/>
           </motion.a>
         ))}

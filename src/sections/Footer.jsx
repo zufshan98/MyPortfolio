@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const socials = [
-  {Icon : FaXTwitter , label : "X" , href : "#"},
+  {Icon : FaEnvelope , label : "Gmail" , href : "mailto:zufshannaaz00@gmail.com"},
   {Icon : FaLinkedin , label : "LinkedIn" , href : "https://www.linkedin.com/in/zufshan-naaz-89312818b/"},
   {Icon : FaGithub , label : "GitHub" , href : "https://github.com/zufshan98"},
 
@@ -22,22 +22,22 @@ const Footer = () => {
 
               <div className='w-full flex flex-col'>
 
-                <a href="#home" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#home" className='relative transition duration-500 hover:underline group'>
                   <span>Home</span>
                 </a>   
-                <a href="#about" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#about" className='relative transition duration-500 hover:underline group'>
                   <span>About</span>
                 </a>
-                <a href="#skills" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#skills" className='relative transition duration-500 hover:underline group'>
                   <span>Skills</span>
                 </a>
-                <a href="#projects" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#projects" className='relative transition duration-500 hover:underline group'>
                   <span>Projects</span>
                 </a>
-                <a href="#learnings" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#learnings" className='relative transition duration-500 hover:underline group'>
                   <span>Learnings</span>
                 </a>
-                <a href="#contact" className='relative transition duration-500 hover:text-pink group'>
+                <a href="#contact" className='relative transition duration-500 hover:underline group'>
                   <span>Contact</span>
                 </a>
               </div>
@@ -46,14 +46,15 @@ const Footer = () => {
 
             <div className='w-full flex flex-col gap-5'>
 
-              <h3>Connect with us!</h3>
-              <div className='w-full flex flex-col'>
+              <h3>Connect with me!</h3>
+              <div className='w-full flex items-center gap-4 text-2xl'>
                 {socials.map(({Icon , label, href}) => (
                   <a 
                   href={href}
                   key={label}
                   target="_blank"
-                  rel="noopener noreferrer" >
+                  rel="noopener noreferrer" 
+                  className='hover:scale-110'>
                     <Icon/>
                   </a>
                 ))}
