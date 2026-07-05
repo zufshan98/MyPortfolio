@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with **React** and **Vite** to show
 
 ## 🌐 Live Demo
 
-**Website:** https://your-portfolio-url.vercel.app
+**Website:** https://my-portfolio-jet-tau-53.vercel.app/
 
 ---
 
@@ -209,7 +209,7 @@ npm run preview
 
 **Zufshan Naaz**
 
-- 🌐 Portfolio: https://your-portfolio-url.vercel.app
+- 🌐 Portfolio: https://my-portfolio-jet-tau-53.vercel.app/
 - 💼 LinkedIn: https://www.linkedin.com/in/zufshan-naaz-89312818b/
 - 💻 GitHub: https://github.com/zufshan98
 - 📧 Email: zufshannaaz00@gmail.com
