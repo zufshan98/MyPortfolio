@@ -10,12 +10,7 @@ const Achievements = () => {
     <section id='learnings' className='w-full flex items-center justify-center'>
       
       {/** Wrapper Container */}
-        <div className='w-full mx-auto px-6 md:px-10 lg:px-12 flex flex-col justify-center items-center mt-20 gap-14' style={{
-          backgroundImage: `url(${Bg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-         }}>
+        <div className='w-full mx-auto px-6 md:px-10 lg:px-12 flex flex-col justify-center items-center mt-20 gap-14'>
           
           {/** Heading - Learnings */}
           <motion.div
