@@ -50,7 +50,7 @@ const Home = () => {
         </div> 
 
         {/** Image */}
-        <div className='w-full bg-white flex items-center justify-center mt-80 sm:mt-72 md:mt-33 lg:mt-20'>
+        <div className='w-full bg-white flex items-center justify-center mt-80 sm:mt-[340px] md:mt-33 lg:mt-20'>
 
           <motion.img 
           initial={{opacity:0, y:60}}

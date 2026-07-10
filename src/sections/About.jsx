@@ -44,10 +44,10 @@ const About = () => {
 
           {/** Image Part */}
           <motion.div 
-          initial={{opacity:0, y:20}}
+          initial={{opacity:0, y:10}}
           whileInView={{opacity:1, y:0}}
           transition={{duration:1}}
-          viewport={{once:true, amount:0.2, ease: 'easeIn'}}
+          viewport={{once:true, ease: 'easeIn'}}
           className=' ml-10 sm:ml-20 md:ml-0 self-start my-auto'>
             <img src={Girl} alt="" className='w-70 sm:w-76 md:w-200 lg:w-230'/>
           </motion.div>
