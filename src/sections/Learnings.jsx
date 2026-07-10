@@ -5,7 +5,6 @@ import Java from '../assets/java.png'
 import Certificate from '../assets/certificate.png'
 import Bg from '../assets/bg10.png'
 import Link from '../assets/link.png'
-import Ellipse from '../assets/ellipse.png'
 
 const Achievements = () => {
   return (
