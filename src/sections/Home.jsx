@@ -50,14 +50,14 @@ const Home = () => {
         </div> 
 
         {/** Image */}
-        <div className='w-full bg-white flex items-center justify-center mt-38 sm:mt-31 md:mt-33 lg:mt-20'>
+        <div className='w-full bg-white flex items-center justify-center mt-72 sm:mt-31 md:mt-33 lg:mt-20'>
 
           <motion.img 
           initial={{opacity:0, y:60}}
           animate={{opacity:1, y:0}}
           transition={{duration:1}}
           viewport={{once:true}}
-          src={Hero} alt="hero image" className='max-w-[85vw] lg:max-w-[90vw] xl:max-w-[95vw] max-h-[90vh] h-screen object-contain select-none pointer-events-none'/> 
+          src={Hero} alt="hero image" className='max-w-[90vw] xl:max-w-[95vw] h-[48vh] md:h-screen object-contain select-none pointer-events-none'/> 
 
           {/** For xl screen - Line on the side besides icons */}
           <span className='hidden md:block absolute md:right-18  xl:right-30 top-1/2 h-12 w-0.5 bg-pink'></span>
@@ -66,7 +66,7 @@ const Home = () => {
       </div>
 
       <div className='flex flex-col items-center gap-4'>
-        {/** For sm and below screen - Line at the bottom besides icons */}
+        {/** For sm and below screen - Line at the bottom above icons */}
       <span className='w-12 h-0.5 bg-pink md:hidden'></span>
 
       {/** Icons */}

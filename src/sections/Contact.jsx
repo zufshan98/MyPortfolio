@@ -86,8 +86,8 @@ const Contact = () => {
 
             {/**Contact dialogue box */}
             <motion.div 
-            initial={{opacity:0, x:-20}}
-            whileInView={{opacity:1, x:0}}
+            initial={{opacity:0, y:20}}
+            whileInView={{opacity:1, y:0}}
             transition={{delay:0.5, duration:0.8}}
             viewport={{once:true}}
             className='w-[110%] flex flex-col justify-center items-center'>
@@ -112,11 +112,11 @@ const Contact = () => {
 
                   <p className='self-start ml-3 text-[#777]'>or send me a message below</p>
                 
-                  <input type='text' name='name' placeholder='Enter your full name' className='w-full h-12 bg-lightgreen rounded-3xl px-6 text-white mb-2' />  
+                  <input type='text' name='name' placeholder='Enter your full name' className='w-full h-12 bg-lightgreen rounded-3xl px-6 text-white mb-2 hover:bg-lightgreen/80' />  
                 
-                  <input type='email' name='email' placeholder='Enter your email' className='w-full h-12 bg-lightgreen rounded-3xl px-6 text-white mb-2' />
+                  <input type='email' name='email' placeholder='Enter your email' className='w-full h-12 bg-lightgreen rounded-3xl px-6 text-white mb-2 hover:bg-lightgreen/80' />
                   
-                  <textarea name="message" id="yourMessage" className='w-full h-28 bg-lightgreen rounded-3xl pl- pt-3 text-white mb-2' placeholder='Type the message here'></textarea>
+                  <textarea name="message" id="yourMessage" className='w-full h-28 bg-lightgreen rounded-3xl px-6 pt-3 text-white mb-2 hover:bg-lightgreen/80' placeholder='Type the message here'></textarea>
 
                   {errors && (
                     <p className="text-red-500 text-sm self-start ml-4 mb-2">
@@ -136,7 +136,7 @@ const Contact = () => {
             <motion.div 
             initial={{opacity:0, x:20}}
             whileInView={{opacity:1, x:0}}
-            transition={{delay:0.5, duration:0.8}}
+            transition={{ duration:0.8}}
             viewport={{once:true}}
             className='flex-col justify-center items-center hidden md:block w-full h-full'>
               <img src={Mobile} alt="phone image" className='' />

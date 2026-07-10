@@ -54,11 +54,11 @@ const Navbar = () => {
 
             <div className='sideoption flex gap-2 justify-center items-center xl:mr-15'>
 
-                <div className='bg-lightgreen w-10 h-10 p-2.5 text-xl rounded-full hover:opacity-90 transition-opacity duration-300 cursor-pointer'>
+                {/**<div className='bg-lightgreen w-10 h-10 p-2.5 text-xl rounded-full hover:opacity-90 transition-opacity duration-300 cursor-pointer'>
                         {
                             theme ? <FiMoon onClick={()=>changeTheme(!theme)} /> : <FiSun onClick={()=>changeTheme(!theme)} /> 
                         }
-                </div>
+                </div>*/}
 
                 <div className='hidden lg:block'>
                     <a href="#contact" className=' bg-pink px-4 py-2 text-center rounded-[10px] shadow-lg hover:opacity-90 transition-opacity duration-300'>Reach Out

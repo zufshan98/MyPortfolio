@@ -28,7 +28,7 @@ const About = () => {
           <motion.div
           initial={{opacity:0}}
           whileInView={{opacity:1}}
-          transition={{delay:1 ,duration:0.8}}
+          transition={{duration:0.8}}
           viewport={{once:true, amount:'all'}}>
             <img src={Bubble} alt="bubble shape" className='absolute w-84 sm:w-93 md:w-88 lg:w-95 top-40 md:top-35 lg:top-38 left-46 sm:left-62 md:left-40 lg:left-54' />
 

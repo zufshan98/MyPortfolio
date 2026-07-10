@@ -55,7 +55,7 @@ const Projects = () => {
                   <motion.div 
                     initial={{opacity:0, y:20}}
                     whileInView={{opacity:1, y:0}}
-                    transition={{delay:0.5, duration:0.8}}
+                    transition={{delay:0.1, duration:0.8}}
                     viewport={{once:true}}
                     className='md:mt-3 flex gap-6'>
                   
@@ -138,7 +138,7 @@ const Projects = () => {
                   <motion.div 
                     initial={{opacity:0, y:20}}
                     whileInView={{opacity:1, y:0}}
-                    transition={{delay:0.5, duration:0.8}}
+                    transition={{delay:0.1, duration:0.8}}
                     viewport={{once:true}}
                     className='md:mt-3 flex gap-6'>
                   
@@ -185,19 +185,14 @@ const Projects = () => {
                       ❤️ Save and manage favorite recipes <br />
                       👤 User authentication with profile</p>
                   </motion.div>
-
-                  
+   
                 </div>
              </div>
-
-              
-              
+    
             </div>
           </div>
 
-
-
-          <div className='w-full mx-auto flex flex-wrap pb-15 gap-5'>
+          <div className='w-full mx-auto flex flex-col md:flex-row flex-wrap pb-15 gap-2'>
 
             <div className='w-[410px] mx-auto'>
 
@@ -297,8 +292,8 @@ const Projects = () => {
                     transition={{duration:1}}
                     viewport={{once:true , amount:0.4}}
                     className='gap-1 mb-2 '>
-                      <h4 className='italic text-pink font-medium pt-2 text-[15px]/5'>About :</h4>
-                      <p>A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript, where the player competes against the computer. The UI is interactive and displays the score and selected choices with images.</p>
+                      <h4 className='italic text-pink font-medium pt-2'>About :</h4>
+                      <p className='text-[15px]/5'>A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript, where the player competes against the computer. The UI is interactive and displays the score and selected choices with images.</p>
                     </motion.div>
 
                    <motion.div 
@@ -360,8 +355,8 @@ const Projects = () => {
                     transition={{duration:1}}
                     viewport={{once:true , amount:0.4}}
                     className='gap-1 mb-2 '>
-                      <h4 className='italic text-pink font-medium pt-2 text-[15px]/5'>About :</h4>
-                      <p>A responsive Currency Converter built using HTML, CSS, JavaScript, and a live currency exchange API. Users can convert any amount from one currency to another with real-time rates and country flag display.</p>
+                      <h4 className='italic text-pink font-medium pt-2'>About :</h4>
+                      <p className='text-[15px]/5'>A responsive Currency Converter built using HTML, CSS, JavaScript, and a live currency exchange API. Users can convert any amount from one currency to another with real-time rates & country flag display.</p>
                     </motion.div>
 
                    <motion.div 
