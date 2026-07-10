@@ -30,7 +30,7 @@ const Home = () => {
             animate={{opacity:1, y:0}}
             transition={{delay:0.4, duration:0.8}}
             viewport={{once:true}}
-            className='w-85 md:w-90 lg:w-95 xl:w-md text-[13px]/5 sm:text-[14px]/5 md:text-[15px]/5 lg:text-[16px]/5 xl:text-[18px]/5 mt-2'>React Frontend Developer creating clean, responsive and user-focused web experiences.
+            className='w-85 md:w-90 lg:w-95 xl:w-md text-[13px]/6 sm:text-[14px]/6 md:text-[15px]/6 lg:text-[16px]/6 xl:text-[18px]/6 mt-2 text-[#777]'>React Frontend Developer creating clean, responsive and user-focused web experiences.
             </motion.p>
 
             <motion.div 
@@ -50,14 +50,14 @@ const Home = () => {
         </div> 
 
         {/** Image */}
-        <div className='w-full bg-white flex items-center justify-center mt-72 sm:mt-31 md:mt-33 lg:mt-20'>
+        <div className='w-full bg-white flex items-center justify-center mt-72 sm:mt-72 md:mt-33 lg:mt-20'>
 
           <motion.img 
           initial={{opacity:0, y:60}}
           animate={{opacity:1, y:0}}
           transition={{duration:1}}
           viewport={{once:true}}
-          src={Hero} alt="hero image" className='max-w-[90vw] xl:max-w-[95vw] h-[48vh] md:h-screen object-contain select-none pointer-events-none'/> 
+          src={Hero} alt="hero image" className='max-w-[90vw] xl:max-w-[95vw] h-[48vh] md:h-[90vh] object-contain select-none pointer-events-none'/> 
 
           {/** For xl screen - Line on the side besides icons */}
           <span className='hidden md:block absolute md:right-18  xl:right-30 top-1/2 h-12 w-0.5 bg-pink'></span>
