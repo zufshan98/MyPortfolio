@@ -36,10 +36,10 @@ const Projects = () => {
              className='flex flex-col items-center justify-center'
              >
               <h2 className='text-3xl text-darkgreen font-semibold'>
-                🎬 Netflix GPT
+                🎬 Bingely
               </h2>
               <h4 className='text-black text-center w-sm md:w-xl mx-auto font-light text-[12px] sm:text-[12px] md:text-[14px] lg:text-[15px] mt-1'>
-                AI-Powered Netflix-Inspired Streaming Platform
+                AI-Powered Entertainment Discovery Platform
               </h4>
 
              </motion.div>
@@ -59,9 +59,9 @@ const Projects = () => {
                     viewport={{once:true}}
                     className='md:mt-3 flex gap-6'>
                   
-                      <a href="https://netflix-gpt-two-vert.vercel.app/" download className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] bg-darkgreen hover:bg-darkgreen/85 rounded-full text-white transition duration-300'>🔗 Live Demo</a>
+                      <a href="https://bingely-phi.vercel.app/" download className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] bg-darkgreen hover:bg-darkgreen/85 rounded-full text-white transition duration-300'>🔗 Live Demo</a>
                   
-                      <a href="https://github.com/zufshan98/NetflixGPT" className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] bg-darkgreen hover:bg-darkgreen/85 rounded-full text-white transition duration-300'>💻 GitHub Repo</a>
+                      <a href="https://github.com/zufshan98/Bingely" className='px-4 py-2 font-medium text-[13.5px] sm:text-[14px] md:text-[15px] lg:text-[16px] bg-darkgreen hover:bg-darkgreen/85 rounded-full text-white transition duration-300'>💻 GitHub Repo</a>
                   
                   </motion.div>
 
@@ -89,7 +89,7 @@ const Projects = () => {
                   viewport={{once:true , amount:0.4}}
                   className='gap-1 mb-2 '>
                     <h4 className='italic text-pink font-medium pt-2'>About :</h4>
-                    <p className='text-[15px]/5'>A Netflix-inspired responsive streaming platform with AI-powered entertainment discovery. Browse movies & TV series, watch trailers, explore detailed information, and perform personalized search using the Groq API.</p>
+                    <p className='text-[15px]/5'>Bingely is an AI-powered entertainment discovery platform for movies, TV shows, and K-dramas. The interface is inspired by Netflix while introducing intelligent recommendations, natural language search, multilingual support, and a seamless streaming experience powered by the Groq AI API.</p>
                   </motion.div>
 
                   <motion.div 
@@ -101,10 +101,10 @@ const Projects = () => {
                     <h4 className='italic text-pink font-medium text-[15px]/5'>Key Features :</h4>
                     <p>🤖 GPT Search : AI-powered search using natural language <br />
                       🔐 Secure user authentication with Firebase <br />
-                      🎬 Watch Movies & TV Series of different genres  <br />
+                      🎬 Browse movies, TV shows & K-dramas of different genres  <br />
                       🌐  Multi-language support in Gpt search page<br />
                       ▶️ Autoplay trailers & interactive hover previews <br />
-                      🎥 Movie details with similar movie recommendations <br />
+                      🎥 Detailed content pages with similar recommendations <br />
                       📱 Fully responsive Netflix-inspired interface</p>
                   </motion.div>
 
