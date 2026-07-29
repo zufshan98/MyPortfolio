@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Macbook1 from '../assets/macbook 1.png'
 import Mealbook from '../assets/Mealbook.png'
-import Netflixgpt from '../assets/netflixgpt.png'
+import Bingely from '../assets/Bingely.png'
 import TicTacToe from '../assets/tictactoe.png'
 import RockPaperScissor from '../assets/rockpaperscissor.png'
 import CurrencyConverter from '../assets/currencyconverter.png'
@@ -49,7 +49,7 @@ const Projects = () => {
               <div className='w-full flex flex-col items-center gap-3'>
 
                 <div className='w-full px-4'>
-                  <img src={Netflixgpt} alt="" className='mx-auto rounded-2xl'/>
+                  <img src={Bingely} alt="" className='mx-auto rounded-2xl'/>
                 </div>
 
                   <motion.div 
